@@ -3,6 +3,7 @@ package fr.univartois.butinfo.r304.flatcraft.model.listmap;
 import fr.univartois.butinfo.r304.flatcraft.model.map.SimpleGameMap;
 import fr.univartois.butinfo.r304.flatcraft.model.map.createmap.IGenMapStrat;
 
+
 public class ListMap {
     protected static class AMap{
 

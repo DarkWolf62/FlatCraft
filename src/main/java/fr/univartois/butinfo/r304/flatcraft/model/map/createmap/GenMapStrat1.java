@@ -7,15 +7,14 @@ import fr.univartois.butinfo.r304.flatcraft.model.map.EndFactory;
 import fr.univartois.butinfo.r304.flatcraft.model.map.NetherFactory;
 import fr.univartois.butinfo.r304.flatcraft.model.map.OverworldFactory;
 import fr.univartois.butinfo.r304.flatcraft.model.map.SimpleGameMap;
-
-public class GenMapStrat1 implements IGenMapStrat{
+public class GenMapStrat1 implements IGenMapStrat {
     private static GenMapStrat1 instance;
 
-    private final ListMap overworldMaps;
+    private ListMap overworldMaps;
 
-    private final ListMap netherMaps;
+    private ListMap netherMaps;
 
-    private final ListMap endMaps;
+    private  ListMap endMaps;
 
     private int height;
 
